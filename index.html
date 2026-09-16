@@ -1,12 +1,191 @@
 <!DOCTYPE html>
-<html lang="ur">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Ekfaglow - Test Page</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ekfa Glow — Ingredient-First Skincare, Made in the USA</title>
+<meta name="description" content="Ekfa Glow makes gentle, ingredient-first skincare for sensitive skin — Bakuchiol Serum and Caffeine Eye Cream, sold on Amazon.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
 </head>
-<body style="font-family: Arial; text-align: center; margin-top: 100px; background-color: #fdf6f0;">
-    <h1 style="color: #d63384;">Welcome to Ekfaglow</h1>
-    <p>Ye meri pehli GitHub Pages test website hai.</p>
-    <p>Agar ye page browser mein khul raha hai, matlab sab kuch sahi kaam kar raha hai!</p>
+<body>
+
+<header class="site-header">
+  <nav class="nav">
+    <a href="index.html" class="wordmark">EKFA<span>·</span>GLOW</a>
+    <button class="nav-toggle" aria-label="Menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">Menu</button>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="shop.html">Shop</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="container hero-grid">
+    <div>
+      <div class="eyebrow">Ekfa Glow · Skincare, USA</div>
+      <h1>Skin care built on what actually works.</h1>
+      <p class="lede">Two focused formulas — a bakuchiol serum and a caffeine eye cream — made with ingredients that are easy to understand and gentle enough for daily use, sensitive skin included.</p>
+      <div class="hero-cta">
+        <a href="shop.html" class="btn btn-primary">Shop the formulas</a>
+        <a href="about.html" class="btn btn-outline">Our approach</a>
+      </div>
+      <div class="hero-rating">
+        <div><strong>4.3 / 5</strong> Bakuchiol Serum · 9 reviews</div>
+        <div><strong>4.0 / 5</strong> Caffeine Eye Cream · 15 reviews</div>
+      </div>
+    </div>
+
+    <div class="label-stack">
+      <!-- IMAGE: replace this block with a real product photo once uploaded.
+           Suggested file: images/serum-bottle.jpg -->
+      <div class="label-card serum">
+        <div class="price">$14.50</div>
+        <div class="kicker">Retinol alternative</div>
+        <div class="name">Bakuchiol Serum<br>with Niacinamide &amp; Vitamin C</div>
+        <div class="gold-rule"></div>
+      </div>
+      <!-- IMAGE: replace this block with a real product photo once uploaded.
+           Suggested file: images/eye-cream.jpg -->
+      <div class="label-card eye">
+        <div class="price">$15.50</div>
+        <div class="kicker">Caffeine + Vitamin C</div>
+        <div class="name">Eye Cream<br>for Dark Circles &amp; Puffiness</div>
+        <div class="gold-rule"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="border-y">
+  <div class="container">
+    <div class="section-head">
+      <div class="eyebrow">Why Ekfa Glow</div>
+      <h2>Fewer ingredients, chosen on purpose.</h2>
+    </div>
+    <div class="value-grid">
+      <div class="value-item">
+        <div class="num">01</div>
+        <h3>Sensitive-skin friendly</h3>
+        <p>Fragrance-free, gentle formulas designed to work for combination, dry, oily and acne-prone skin alike.</p>
+      </div>
+      <div class="value-item">
+        <div class="num">02</div>
+        <h3>Ingredient-first</h3>
+        <p>Bakuchiol, niacinamide, vitamin C, hyaluronic acid and caffeine — nothing added just to fill the label.</p>
+      </div>
+      <div class="value-item">
+        <div class="num">03</div>
+        <h3>Backed by Amazon</h3>
+        <p>Fast Prime shipping and a straightforward 30-day return policy on every order.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="section-head">
+      <div class="eyebrow">The line-up</div>
+      <h2>Two products. Both doing real work.</h2>
+    </div>
+    <div class="product-grid">
+
+      <article class="product-card">
+        <div class="swatch serum">
+          <div class="kicker">Face &amp; neck serum</div>
+          <div class="name">Bakuchiol Serum</div>
+        </div>
+        <div class="body">
+          <div class="rating"><strong>4.3</strong> out of 5 · 9 ratings</div>
+          <ul>
+            <li>Niacinamide + vitamin C for brightening and tone</li>
+            <li>Bakuchiol as a gentle retinol alternative</li>
+            <li>Hyaluronic acid for daily hydration</li>
+          </ul>
+          <div class="price-row">
+            <span class="now">$14.50</span>
+            <span class="was">$16.59</span>
+            <span class="off">13% off</span>
+          </div>
+          <div class="card-actions">
+            <a href="shop.html#serum" class="btn btn-outline">See details</a>
+            <a href="https://www.amazon.com/dp/B0DKJRX767" class="btn btn-amazon" target="_blank" rel="noopener">Buy on Amazon</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <div class="swatch eye">
+          <div class="kicker">Eye cream</div>
+          <div class="name">Caffeine Eye Cream</div>
+        </div>
+        <div class="body">
+          <div class="rating"><strong>4.0</strong> out of 5 · 15 ratings</div>
+          <ul>
+            <li>Caffeine to visibly reduce puffiness</li>
+            <li>Vitamin C + niacinamide to brighten under-eyes</li>
+            <li>Hyaluronic acid for lasting hydration, no heaviness</li>
+          </ul>
+          <div class="price-row">
+            <span class="now">$15.50</span>
+            <span class="was">$17.79</span>
+            <span class="off">13% off</span>
+          </div>
+          <div class="card-actions">
+            <a href="shop.html#eye-cream" class="btn btn-outline">See details</a>
+            <a href="https://www.amazon.com/dp/B0D9Q4S8RB" class="btn btn-amazon" target="_blank" rel="noopener">Buy on Amazon</a>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<section class="band">
+  <div class="container">
+    <div class="section-head">
+      <div class="eyebrow">Availability</div>
+      <h2>Sold exclusively on Amazon, shipped fast with Prime.</h2>
+      <p>Ekfa Glow is a brand of UNI MART LLC. Every order ships from Amazon with free returns within 30 days, so trying a formula for the first time is low-risk.</p>
+    </div>
+    <a href="shop.html" class="btn btn-primary">View both products</a>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <a href="index.html" class="wordmark">EKFA<span>·</span>GLOW</a>
+        <p style="margin-top:14px; font-size:14.5px; color:var(--muted);">Ingredient-first skincare, made for everyday sensitive skin. A brand of UNI MART LLC.</p>
+      </div>
+      <div>
+        <h4>Shop</h4>
+        <ul>
+          <li><a href="shop.html#serum">Bakuchiol Serum</a></li>
+          <li><a href="shop.html#eye-cream">Caffeine Eye Cream</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 UNI MART LLC. All rights reserved.</span>
+      <span>info@ekfaglowusa.com · +1 817-532-1870</span>
+    </div>
+  </div>
+</footer>
+
 </body>
 </html>

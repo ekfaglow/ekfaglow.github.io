@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Ekfa Glow</title>
+<meta name="description" content="Get in touch with Ekfa Glow / UNI MART LLC by phone or email.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav">
+    <a href="index.html" class="wordmark">EKFA<span>·</span>GLOW</a>
+    <button class="nav-toggle" aria-label="Menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">Menu</button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="shop.html">Shop</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="hero" style="padding-bottom: 40px;">
+  <div class="container">
+    <div class="eyebrow">Contact</div>
+    <h1 style="max-width: 16ch;">We're easy to reach.</h1>
+    <p class="lede">Questions about a formula, an ingredient, or an order — reach out by phone or email, or send a message below.</p>
+  </div>
+</section>
+
+<section class="border-y">
+  <div class="container contact-grid">
+    <div>
+      <div class="contact-card">
+        <div class="k">Phone</div>
+        <div class="v"><a href="tel:+18175321870">+1 817-532-1870</a></div>
+      </div>
+      <div class="contact-card">
+        <div class="k">Email</div>
+        <div class="v"><a href="mailto:info@ekfaglowusa.com">info@ekfaglowusa.com</a></div>
+      </div>
+      <div class="contact-card">
+        <div class="k">Company</div>
+        <div class="v" style="font-size:16px;">UNI MART LLC<br><span style="font-family:var(--sans); font-size:14px; color:var(--muted);">Ekfa Glow is a brand of UNI MART LLC</span></div>
+      </div>
+    </div>
+
+    <div>
+      <h2 style="font-size: 24px;">Send a message</h2>
+      <p style="color:var(--muted); font-size:14.5px;">This form opens your email app addressed to us — nothing is sent from this page itself.</p>
+      <form class="contact-form" action="mailto:info@ekfaglowusa.com" method="post" enctype="text/plain">
+        <div class="row-2">
+          <div>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="Name" required>
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="Email" required>
+          </div>
+        </div>
+        <div>
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" name="Subject">
+        </div>
+        <div>
+          <label for="message">Message</label>
+          <textarea id="message" name="Message" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary" style="justify-self:start;">Send message</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <a href="index.html" class="wordmark">EKFA<span>·</span>GLOW</a>
+        <p style="margin-top:14px; font-size:14.5px; color:var(--muted);">Ingredient-first skincare, made for everyday sensitive skin. A brand of UNI MART LLC.</p>
+      </div>
+      <div>
+        <h4>Shop</h4>
+        <ul>
+          <li><a href="shop.html#serum">Bakuchiol Serum</a></li>
+          <li><a href="shop.html#eye-cream">Caffeine Eye Cream</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 UNI MART LLC. All rights reserved.</span>
+      <span>info@ekfaglowusa.com · +1 817-532-1870</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
